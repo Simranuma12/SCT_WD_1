@@ -1,0 +1,72 @@
+/* Reset some defaults */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+nav{
+  width:100%;
+  height: 75px;
+  line-height: 75px;
+  padding:0px 100px;
+  position: fixed;
+  background-image:linear-gradient( #3a4664);
+}
+nav .logo p{
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+  color:whitesmoke;
+  text-transform:capitalize;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+
+  
+}
+nav ul{
+  float: right;
+}
+nav li{
+  display: inline-block;
+  list-style: none;
+}
+nav li a{
+  font-size: 18px;
+  padding: 0px 30px;
+  color:whitesmoke;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+nav li a:hover{
+  color:#eaa0a2;
+  transition-property: all 0.4s ease 0s;
+}
+.content img{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+}
+nav .skill img{
+  width: 5%;
+  height: 5%;
+  float: left;
+  transform: translate(1%, 15%);
+  margin-right: 15px;
+  
+}
+nav button {
+  background-color:#ffdbdc;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  width:90px;
+}
+nav button a{
+  color: #3a4664;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
